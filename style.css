@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "After-Shok";
+    src: url("After-Shok.ttf") format("ttf");
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #777;
+}
+
+.main-header {
+    background-image: url("Bilder/header-background.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .3);
+    background-position: center;
+    background-blend-mode: multiply;
+    padding-bottom: 20px
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-family: "After-Shok";
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
